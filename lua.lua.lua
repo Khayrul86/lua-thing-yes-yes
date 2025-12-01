@@ -117,3 +117,13 @@ Player.CharacterAdded:Connect(function()
   onSpawn()
 end)
 _G.thing = funcTable
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/CheatUserzz/RobloxOpenSourceScripts/refs/heads/main/TsNotificactionSource.lua"))();
+local Notify = AkaliNotif.Notify;
+Notify({
+Description = "if you see this the script is working fine";
+Title = "btw invisible keybind is G";
+Duration = 5;
+});
